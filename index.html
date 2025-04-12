@@ -16,11 +16,11 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="page-header">
         <div class="container header-container">
             <nav class="header-nav">
-                <a href="index.html" class="logo header-logo">Web<span>Studio</span></a>
-                <ul class="menu">
+                <a href="index.html" class="logo header-logo">Web<span class="logo-part">Studio</span></a>
+                <ul class="nav-list">
                     <li>
                         <a href="./index.html" class="nav-link studio">Studio</a>
                     </li>
@@ -42,11 +42,74 @@
                     </li>
                 </ul>
             </address>
+            <button type="button" data-menu-open class="burger-btn" data-modal-open><svg class="burger-icon" width="24"
+                    height="24">
+                    <use href="./images/icons.svg#icon-burger"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="mobile-menu" data-menu>
+            <div class="container mobile-menu-container">
+                <button class="mobile-menu-close" data-menu-close>Close</button>
+                <nav class="mobile-menu-nav">
+                    <ul class="nav-list-mobile">
+                        <li>
+                            <a href="./index.html" class="nav-link-mobile studio">Studio</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav-link-mobile">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav-link-mobile">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <address>
+                    <ul class="contacts">
+                        <li>
+                            <a href="mailto:info@devstudio.com" class="mail-tel">info@devstudio.com</a>
+                        </li>
+                        <li>
+                            <a href="tel:+110001111111" class="mail-tel">+11 (000) 111-11-11</a>
+                        </li>
+                    </ul>
+                </address>
+                <ul class="soc-list">
+                    <li class="icons-item">
+                        <a class="icons-link" href="www.instagram.com">
+                            <svg class="icon-team" width="16" height="16">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icons-item">
+                        <a class="icons-link" href="www.twitter.com">
+                            <svg class="icon-team" width="16" height="16">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icons-item">
+                        <a class="icons-link" href="www.facebook.com">
+                            <svg class="icon-team" width="16" height="16">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icons-item">
+                        <a class="icons-link" href="www.linkedin.com">
+                            <svg class="icon-team" width="16" height="16">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
 
     <main>
-        <section class="main-title">
+        <section class="hidden">
             <div class="container container-main">
                 <h1 class="name-title">Effective Solutions for Your Business</h1>
                 <button type="button" class="button" data-modal-open>Order Service</button>
@@ -54,7 +117,7 @@
         </section>
 
 
-        <section class="section-two">
+        <section class="hidden">
             <div class="container container-section-two">
                 <h2 class="visuallyhidden">Our Features</h2>
                 <ul class="skills">
@@ -112,7 +175,7 @@
             </div>
         </section>
 
-        <section class="section-three">
+        <section class="hidden">
             <div class="container container-section-three">
                 <h2 class="name-three">Our Team</h2>
                 <ul class="foto-list">
@@ -267,7 +330,7 @@
                 </ul>
             </div>
         </section>
-        <section class="section-four">
+        <section class="hidden">
             <div class="container container-section-four">
                 <h2 class="name-four">Our Portfolio</h2>
                 <ul class="list-our_portfolio">
@@ -360,7 +423,7 @@
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="hidden">
         <div class="container container-footer">
             <div class="container-logo-footer">
                 <a href="./index.html" class="logo-footer">Web<span class="span-one">Studio</span></a>
@@ -423,7 +486,7 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop is-ope" data-modal>
+    <div class="backdrop is-ope hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-button-close" data-modal-close>
                 <svg width="8" height="8" class="icon icon-cross">
@@ -480,6 +543,7 @@
         </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
