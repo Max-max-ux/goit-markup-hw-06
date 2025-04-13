@@ -420,7 +420,7 @@ body ul {
 .footer-class {
   background-color: #2e2f42;
   padding: 100px 0;
-  max-height: 312px;
+  /* max-height: 312px; */
   /* max-width: 1440px; */
   margin: 0 auto;
 }
@@ -494,6 +494,7 @@ img {
   flex-direction: row;
   gap: 16px;
   /* margin-top: 8px; */
+  margin-bottom: 72px;
 }
 
 .scsc {
@@ -593,7 +594,7 @@ img {
   margin-bottom: 72px;
 }
 
-/* .soc-container { */
+/* .soc-container { 
 /* margin: 0; */
 /* margin-bottom: 72px; */
 
