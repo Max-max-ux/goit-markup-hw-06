@@ -171,13 +171,14 @@ address {
 
 .main-page-title {
   /* background-color: #2e2f42; */
-  padding: 188px 0;
+  padding: 72px 0;
   text-align: center;
   background-size: cover;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
     url("../images/people-office-mob.jpg");
   max-width: 1440px;
+  max-height: 432px;
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
@@ -361,8 +362,9 @@ address {
 }
 
 .section-portfolio {
-  padding-top: 120px;
+  /* padding-top: 120px; */
   padding-bottom: 120px;
+  margin-top: 96px;
 }
 
 body ul {
@@ -420,7 +422,7 @@ body ul {
 
 .footer-class {
   background-color: #2e2f42;
-  padding: 100px 0;
+  padding: 96px 0;
   /* max-height: 312px; */
   /* max-width: 1440px; */
   margin: 0 auto;
@@ -495,7 +497,7 @@ img {
   flex-direction: row;
   gap: 16px;
   /* margin-top: 8px; */
-  /* margin-bottom: 72px; */
+  margin-bottom: 72px;
 }
 
 .scsc {
@@ -920,6 +922,7 @@ img {
 
 .flex-header {
   justify-content: space-between;
+  /* max-width: 115px; */
 }
 
 @media screen and (min-width: 768px) {
@@ -957,7 +960,7 @@ img {
 
   .nav-menu {
     display: flex;
-    margin-right: 120px;
+    margin: 0 120px;
   }
 
   .container {
@@ -982,7 +985,7 @@ img {
   }
 
   .company-title {
-    margin-right: 76px;
+    /* margin-right: 76px; */
   }
 
   .address-top {
@@ -1003,6 +1006,8 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
+    margin-right: 0px;
+    justify-content: flex-end;
   }
 
   .address-top a {
@@ -1070,6 +1075,14 @@ img {
 
     padding: 72px 24px 24px 24px;
   }
+
+  .social-container {
+    margin-bottom: 104px;
+  }
+
+  .subscribe-input {
+    width: 264px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -1089,6 +1102,8 @@ img {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
       url("../images/people-office.jpg");
+    min-height: 600px;
+    padding: 188px 0;
   }
 
   @media screen and (min-resolution: 2x) {
@@ -1101,6 +1116,8 @@ img {
 
   .container {
     max-width: 1158px;
+    margin: 0 141px;
+    justify-content: space-between;
   }
 
   .main-section-title {
@@ -1153,10 +1170,20 @@ img {
 
   .footer-class {
     padding: 100px 0px;
+    height: 312px;
   }
 
   .footer-media {
     margin-right: 80px;
+  }
+
+  .footer-block {
+    margin-right: 120px;
+    margin-bottom: 0px;
+  }
+
+  .soc-container {
+    margin-bottom: 0px;
   }
 }
 
