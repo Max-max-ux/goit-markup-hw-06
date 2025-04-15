@@ -497,6 +497,10 @@ img {
   flex-direction: row;
   gap: 16px;
   /* margin-top: 8px; */
+  /* margin-bottom: 72px; */
+}
+
+.soc-footer {
   margin-bottom: 72px;
 }
 
@@ -1077,7 +1081,7 @@ img {
   }
 
   .social-container {
-    margin-bottom: 104px;
+    /* margin-bottom: 104px; */
   }
 
   .subscribe-input {
@@ -1116,7 +1120,7 @@ img {
 
   .container {
     max-width: 1158px;
-    margin: 0 141px;
+    margin: 0 auto;
     justify-content: space-between;
   }
 
