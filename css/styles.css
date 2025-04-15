@@ -153,6 +153,7 @@ address {
   color: #404bbf;
 }
 
+
 /* .address-list {
    display: flex;
   gap: 40px; 
@@ -1093,6 +1094,10 @@ img {
 @media screen and (min-width: 1158px) {
   .body-header-link {
     padding: 24px 0;
+  }
+
+  .mail-item {
+    margin-right: 40px;
   }
 
   .address-top a {
